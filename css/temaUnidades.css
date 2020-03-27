@@ -1,0 +1,29 @@
+/*<!-- #ee6e73 color por defecto -->*/
+
+/*color fuerte = #ee6e73
+color suave  = #eeb2b4*/
+
+body{  
+    background-image: url(../multimedia/image/fondo7.jpg); 
+    background-repeat: repeat; 
+}
+
+.contenedor{
+	background-color: rgba(238, 181, 184, 0.7);
+	overflow: auto;
+	height: inherit;
+	width: inherit;
+}
+
+nav .nav-wrapper, footer.page-footer {
+    background-color: #ee6e73;
+}
+
+.redondo, .redondo:hover {	
+     background: #ee6e73;
+}
+
+
+
+
+

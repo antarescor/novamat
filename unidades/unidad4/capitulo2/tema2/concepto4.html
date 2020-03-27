@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>NOVAMAT</title>
+	<link rel="shortcut icon" href="../../../../multimedia/image/logo_50x50.png" type="image/x-icon">
+	
+	<link rel="stylesheet" href="../../../../css/materialize.css">
+	<link rel="stylesheet" href="../../../../css/estilo.css">
+	<link rel="stylesheet" href="../../../../css/temaAmarillo.css">
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+	<div class="contenedor">
+
+<!-- ***************** barra de navegacion ***************************** -->
+	
+	
+		<div id="navbarComun" class="navbar-fixed">
+			<nav>
+				<div class="nav-wrapper z-depth-5">
+			<!-- ***************** logo ******************* -->	
+		
+					<!-- <div id="logoComun"></div> -->
+					<div class="redondo right side-nave  z-depth-4">	
+						<a href="../../../../index.html" class="invisibleLink right side-nave brand-logo">
+							<div onmouseover="playHoverLogo()" onmouseout="playHoverLogo2()" class="logo">
+							</div>
+						</a>	
+					</div>
+		
+			<!-- ******************** menu  ********************** -->
+
+			<!-- importante!!!! este es el menu de navegacion, al completar las paginas por favor colocar bien  los respectivos enlaces corespondientes con los nombre y las otras paginas-->
+					<div class="row">
+						<div class="col s6">
+							<a href="../../../unidades.html" class="breadcrumb" >
+							<i class="material-icons">view_day</i>Unidades</a>   
+                            <a href="../../unidadCuatro.html" class="breadcrumb">Unidad 4</a>
+                            <a href="../capitulo2.html" class="breadcrumb">Capitulo 2</a> 
+                            <a href="tema2.html" class="breadcrumb">Tema 2 </a>
+                            <a href="#!" class="breadcrumb">Concepto 4</a>
+                    	</div>
+					</div>
+
+				</div>		
+			</nav>
+		</div>  
+		
+		<!-- ************************ contenido ****************************** -->
+
+		
+		        
+		
+		<div class="containerA">	
+			<div class="main">
+
+				<div class="row">
+					<div class="col m6">
+						<div class="card scroll">
+							<div class="card-content black-text">
+								<h4 class="cTexto">
+								Regla del producto
+								</h4>
+								<p style="text-align: justify;">
+								<br><br>
+								El concepto de probabilidad nace cuando algunos aficionados a los juegos de
+								azar deciden estudiar las oportunidades que tienen de ganar. Así, se realizan
+								experimentos y se obtienen reglas que actualmente se aplican en muchas
+								situaciones en donde interviene el azar.<br>
+								La regla del producto es una de las muchas que han surgido de esos experimentos
+								y ahora corresponde ver en qué consiste.<br>
+								Analiza el siguiente ejemplo:
+								<br><br>
+								En una urna hay 15 tornillos, de los cuales 5 son defectuosos. Calcular la
+								probabilidad de que al sacar 3 tornillos al azar, éstos no sean defectuosos.
+								<br><br>
+								La probabilidad de que el primer tornillo no sea defectuoso es 10/15,
+								pues son 10 tornillos no defectuosos.<br>
+								Si el primero no es defectuoso, la probabilidad de que el segundo no lo sea es de 9/14, los casos favorables son 9 de los 14 posibles, ¡puesto que ya se ha sacado
+								un tornillo! Y por último, si los dos primeros no salieron defectuosos, la
+								probabilidad de que el tercero tampoco lo sea es de 8/13<br>
+								Un diagrama de árbol nos ayuda a visualizar el experimento:<br><br>
+								<img class="materialboxed" data-caption="" src="../../../../multimedia/image/unidad_4/probabilidad9.png">								
+								<br><br>
+								Observa un hecho importante en cada bifurcación: la suma de las probabilidades
+								es 1.<br><br>
+								En síntesis, se puede decir que:<br><br>
+								La probabilidad de dos o más eventos (cuando no hay reemplazo) es
+								igual al producto de la probabilidad de cada uno, obtenida después de
+								cada evento.
+								</p>
+							</div>
+							
+						</div>						
+					</div>
+
+					<div class="col m6">
+						<div class="card scroll2">
+							<div class="card-content black-text">												
+								
+								<!-- descomentar para agragar video de youtube-->
+								<div class="video-container">
+								 <iframe width="560" height="315" src="https://www.youtube.com/embed/G-TUFDK8jOU" frameborder="0" allowfullscreen></iframe>
+								</div> -->
+
+								<!-- descomentar para agregar imagen<img class="materialboxed" data-caption="Nautilus" src="../../../../multimedia/image/nautilus.jpg"> -->	    
+								
+							</div>
+
+
+							<!-- descomentar para agregar info en el div modal (ver info en http://materializecss.com/modals.html)
+							 <div class="card-action">
+								Modal Trigger
+								<a class="modal-trigger waves-effect waves-light cBoton btn right" href="#modal1">Continuar leyendo</a>		
+							</div>	 -->					
+							
+						</div>
+						<br>	
+
+						<div class="card">			
+							<a data-position="top" data-tooltip="anterior concepto" class="btn tooltipped waves-effect waves-light cBoton btn-large left" 
+							href="concepto3.html"><i class="material-icons left">arrow_back</i>anterior
+							</a>									
+						</div>					
+					</div>
+				</div>
+				
+			</div>			
+				        
+
+			<!-- Modal Structure -->
+			<div id="modal1" class="modal modal-fixed-footer">
+			  <div class="modal-content">
+			    <h5 class="card-title cTexto">titulo de multimedia aqui</h5>
+			    <p style="text-align: justify;"><br><br>
+			    aqui tambien puede ir ualgo de multimedia generico  
+			    <br>
+				animacion svg
+				<br>
+				gif
+				<br>
+				imagen
+				<br>
+				video la de web
+				<br>
+				video de archivo
+			    </p>
+			  </div>
+			  <div class="modal-footer">
+			    <a href="#!" class="modal-action modal-close waves-effect waves-green cBoton btn ">Cerrar</a>
+			  </div>
+			</div>
+			<!-- ***** -->
+			<br>
+		</div>
+		
+		<!-- ***************** footer ***************************** -->
+		
+		<!-- <div id="footerComun"></div>   -->
+		<footer class="foot page-footer zup-depth-5">      
+				<div class="footer-copyright center">
+			    <div class="row">
+			    	<a id="univalle" href="http://tulua.univalle.edu.co/">
+			    		<h6 class="col offset-m3 m3">UNIVERSIDAD DEL VALLE TULUA</h6>
+			    	</a>
+			    	<h6 class="col m3">© 2016 Copyright NOVAMAT Grado 9º</h6>           	
+			    </div> 
+		  	</div>
+
+		</footer>    
+		
+		
+		<!-- ************ para adjuntar partes de la pagina *************** -->
+
+
+		
+		<audio src="" preload></audio> 		<!-- [0] ../multimedia/audio/hover.mp3-->
+		<audio src="" preload></audio> 		<!-- [1] ../multimedia/audio/clic.mp3-->
+		<audio src="" preload></audio>		<!-- [2] ../../multimedia/audio/unidades.mp3-->
+		<audio src="../../../../multimedia/audio/logo.mp3" preload></audio>		<!-- [3] -->
+		<audio src="../../../../multimedia/audio/logo2.mp3" preload></audio>		<!-- [4] -->
+
+
+		<script src="../../../../js/jquery.js"></script>
+		<script src="../../../../js/materialize.min.js"></script>
+		<script src="../../../../js/audios.js"></script>
+		<script>
+			$(document).ready(function(){
+			    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+			    $('.modal').modal();
+			  });
+		</script>
+	
+<!-- ***************************************************************	 -->
+	</div>
+</body>
+
+
+</html>

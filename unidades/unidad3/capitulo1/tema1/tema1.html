@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>NOVAMAT</title>
+	<link rel="shortcut icon" href="../../../../multimedia/image/logo_50x50.png" type="image/x-icon">
+	
+	<link rel="stylesheet" href="../../../../css/materialize.css">
+	<link rel="stylesheet" href="../../../../css/estilo.css">
+	<link rel="stylesheet" href="../../../../css/temaRosado.css">
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+	<div class="contenedor">
+
+<!-- ***************** barra de navegacion ***************************** -->
+	
+	
+		<div id="navbarComun" class="navbar-fixed">
+			<nav>
+				<div class="nav-wrapper z-depth-5">
+			<!-- ***************** logo ******************* -->	
+		
+					<!-- <div id="logoComun"></div> -->
+					<div class="redondo right side-nave  z-depth-4">	
+						<a href="../../../../index.html" class="invisibleLink right side-nave brand-logo">
+							<div onmouseover="playHoverLogo()" onmouseout="playHoverLogo2()" class="logo">
+							</div>
+						</a>	
+					</div>
+		
+			<!-- ******************** menu  ********************** -->
+
+			<!-- importante!!!! este es el menu de navegacion, al completar las paginas por favor colocar bien  los respectivos enlaces corespondientes con los nombre y las otras paginas-->
+					<div class="row">
+						<div class="col s6">
+							<a href="../../../unidades.html" class="breadcrumb" >
+							<i class="material-icons">view_day</i>Unidades</a>   
+                            <a href="../../unidadTres.html" class="breadcrumb">Unidad 3</a>
+                            <a href="../capitulo1.html" class="breadcrumb">Capitulo 1</a> 
+                            <a href="#!" class="breadcrumb">Tema 1 </a>
+                    	</div>
+					</div>
+
+				</div>		
+			</nav>
+		</div>  
+		
+		<!-- ************************ contenido ****************************** -->
+
+		
+		        
+		
+		<div class="containerA">	
+			<div class="main">
+
+				<div class="row">
+					<div class="col m6">
+						<div class="card scroll">
+							<div class="card-content black-text">
+								<h4 class="cTexto">
+								Funciones y ecuaciones lineales
+								</h4>
+								<p style="text-align: justify;">
+								<br><br>
+								<strong><i>Funcion Lineal</i> </strong><br><br>
+								Una función lineal es una función cuyo dominio son todos los números reales, cuyo codominio también todos los números reales, y cuya expresión analítica es un polinomio de primer grado.<br><br>
+
+								La función lineal se define por la ecuación f(x) = mx + b ó y = mx + b llamada ecuación canónica, en donde m es la pendiente de la recta y b es el intercepto con el eje Y.
+
+								<br><br>
+								<strong><i>Ecuacion Lineal</i> </strong>
+								<br><br>								
+								Una ecuación de primer grado o ecuación lineal es una igualdad que involucra una o más variables a la primera potencia y no contiene productos entre las variables, es decir, una ecuación que involucra solamente sumas y restas de una variable a la primera potencia.
+								</p>
+							</div>
+						</div>						
+					</div>
+
+					<div class="col m6">
+						<div class="card scroll2">
+							<div class="card-content black-text">					
+								<h5 class="cTexto">						
+								Ejemplo 
+								</h5><br>
+								<p style="text-align: justify;">
+                    Dada la función: y = 2x , ésta puede representarse en el plano cartesiano, así: <br>
+                    Escribimos la expresión algebraica es y = 2x , construimos una tabla de
+                    valores y después graficamos.
+								</p>
+								<img class="materialboxed"  ALIGN=right data-caption="ejemplo" src="../../../../multimedia/image/t3tema1.jpg">
+
+								<div class="dibujo-canvas">
+		<canvas id="lienzo1" width="200" height="200"></canvas>
+		<script type="text/javascript">
+			ejercicio1();
+			function ejercicio1(){
+				ej1=document.getElementById("lienzo1"); 
+				lienzo1=ej1.getContext("2d");
+				lienzo1.lineWidth=1;
+				lienzo1.strokeStyle = '#000'; 
+ 
+			//EJEX
+				lienzo1.beginPath(); 
+				lienzo1.moveTo(100,0); 
+				lienzo1.lineTo(100,200);
+
+                lienzo1.moveTo(200,0); 
+				lienzo1.lineTo(0,200);
+
+				lienzo1.stroke(); 
+				lienzo1.closePath(); 
+			//EJE Y
+				lienzo1.beginPath(); 
+				lienzo1.moveTo(0,100);
+				lienzo1.lineTo(200,100);
+				lienzo1.stroke();
+				lienzo1.closePath();
+			 }
+		</script>
+	</div>
+
+							</div>
+							<div class="card-action">
+								<!-- Modal Trigger -->
+								<a class="modal-trigger waves-effect waves-light cBoton btn right" href="#modal1">Video Explicativo</a>		
+							</div>						
+							
+						</div>
+						<br>	
+
+						<div class="card">			
+							<!-- <a data-position="top" data-tooltip="anterior concepto" class="btn tooltipped waves-effect waves-light cBoton btn-large left" 
+							href="#"><i class="material-icons left">arrow_back</i>anterior
+							</a> -->
+							
+							<a data-position="top" data-tooltip="siguiente concepto" class="btn tooltipped waves-effect waves-light cBoton btn-large right" 
+							href="concepto1.html"><i class="material-icons right">arrow_forward</i>siguiente
+							</a>		
+						</div>					
+					</div>
+				</div>
+				
+			</div>			
+				        
+
+			<!-- Modal Structure -->
+			<div id="modal1" class="modal modal-fixed-footer">
+			  <div class="modal-content">
+			    <h5 class="card-title cTexto">Graficar Funciones Lineales </h5>
+			    <p style="text-align: justify;"><br><br>
+			    
+								<iframe width="640" height="360" src="https://www.youtube.com/embed/dLNxF4SlxIw?rel=0&amp;showinfo=0&start=8" frameborder="0" allowfullscreen></iframe>
+			    </p>
+			  </div>
+			  <div class="modal-footer">
+			    <a href="#!" class="modal-action modal-close waves-effect waves-green cBoton btn ">Cerrar</a>
+			  </div>
+			</div>
+			<!-- ***** -->
+			<br>
+		</div>
+		
+		<!-- ***************** footer ***************************** -->
+		
+		<!-- <div id="footerComun"></div>   -->
+		<footer class="foot page-footer zup-depth-5">      
+				<div class="footer-copyright center">
+			    <div class="row">
+			    	<a id="univalle" href="http://tulua.univalle.edu.co/">
+			    		<h6 class="col offset-m3 m3">UNIVERSIDAD DEL VALLE TULUA</h6>
+			    	</a>
+			    	<h6 class="col m3">© 2016 Copyright NOVAMAT Grado 9º</h6>           	
+			    </div> 
+		  	</div>
+
+		</footer>    
+		
+		
+		<!-- ************ para adjuntar partes de la pagina *************** -->
+
+
+		
+		<audio src="" preload></audio> 		<!-- [0] ../multimedia/audio/hover.mp3-->
+		<audio src="" preload></audio> 		<!-- [1] ../multimedia/audio/clic.mp3-->
+		<audio src="" preload></audio>		<!-- [2] ../../multimedia/audio/unidades.mp3-->
+		<audio src="../../../../multimedia/audio/logo.mp3" preload></audio>		<!-- [3] -->
+		<audio src="../../../../multimedia/audio/logo2.mp3" preload></audio>		<!-- [4] -->
+
+
+		<script src="../../../../js/jquery.js"></script>
+		<script src="../../../../js/materialize.min.js"></script>
+		<script src="../../../../js/audios.js"></script>
+		<script>
+			$(document).ready(function(){
+			    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+			    $('.modal').modal();
+			  });
+		</script>
+	
+<!-- ***************************************************************	 -->
+	</div>
+</body>
+
+
+</html>

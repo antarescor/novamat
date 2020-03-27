@@ -1,0 +1,213 @@
+/*<!-- #ee6e73 color por defecto -->*/
+
+html {
+  height: 100%;
+}
+
+body {  	
+    height: inherit;
+    background-size: 30%; /*ajustar la imagen de fondo a tamaños variados*/
+}
+
+.scroll{  
+  height: 580px;
+  overflow-y: auto;
+  /*background-color: #00FF00;*/
+}
+
+.scroll2{  
+  height: 480px;
+  overflow-y: auto;
+  /*background-color: #0000ff;*/
+}
+
+.container2 {
+    width: 70%;
+}
+
+#navIndex{
+	height: 90px;
+}
+
+.redondoIndex {	
+	 width: 110px; 
+     height: 110px;
+     -moz-border-radius: 0 0 0 100% ;
+     -webkit-border-radius: 0 0 0 100%;
+     border-radius: 0 0 0 100%;
+}
+
+.redondo {	
+	 width: 135px; 
+     height: 135px;
+     -moz-border-radius: 0 0 0 100% ;
+     -webkit-border-radius: 0 0 0 100%;
+     border-radius: 0 0 0 100%;
+     -webkit-transition: all 0.2s ease-out;
+     -moz-transition: all 0.2s ease-out;
+     -o-transition: all 0.2s ease-out;
+}
+
+.redondo:hover {	
+	 width: 185px; 
+     height: 185px;
+     background: #ee6e73;
+     -moz-border-radius: 0 0 0 100% ;
+     -webkit-border-radius: 0 0 0 100%;
+     border-radius: 0 0 0 100%;     
+}
+
+.redondo a{		
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+}
+
+.redondo a:hover{
+	transform:  scale(1.2,1.2) translateX(-20px) translateY(20px);
+	/*rotate(360deg)*/
+}
+
+.logo{
+	height: 150px;
+	width: 140px;
+  /*background-color: rgba(0,0,0,0.1);*/
+	background-image: url(../multimedia/image/logo_100x100.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.logo:hover{
+	background-image: url(../multimedia/image/logo_100x100Brillo.png);
+}
+
+
+.footIndex, .foot {
+   position:fixed;
+   bottom:0;
+   width:100%;  
+}
+
+footer.foot{
+   height: 40px;
+   margin-top: 2px;
+   padding-top: 2px;    
+}
+
+a#univalle{
+  color: #fff;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#unidad1, #unidad2, #unidad3, #unidad4 {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+}
+
+#unidad1:hover{
+  background-color: #c0a1c5; 
+  transform: scale(1.05,1.1) translateX(-50px) translateY(20px); 
+  overflow: hidden;
+  z-index: 5;
+  box-shadow:  24px 16px 30px rgba(0, 0, 0, 0.8);
+} 
+
+#unidad2:hover{
+  background-color: #88cfe5;  
+  transform: scale(1.05,1.1) translateX(50px) translateY(20px); 
+  overflow: hidden;
+  z-index: 5;
+  box-shadow:   -24px 16px 30px rgba(0, 0, 0, 0.8);
+} 
+
+#unidad3:hover{
+  background-color: #ec8ac4; 
+  transform: scale(1.05,1.1) translateX(-50px) translateY(-20px); 
+  overflow: hidden;
+  z-index: 5;
+  box-shadow:  24px -16px 30px rgba(0, 0, 0, 0.8); 
+} 
+
+#unidad4:hover{
+  background-color: #ffe495;  
+  transform: scale(1.05,1.1) translateX(50px) translateY(-20px); 
+  overflow: hidden;
+  z-index: 5;
+  box-shadow:  -24px -16px 30px rgba(0, 0, 0, 0.8);
+} 
+
+
+/************************/
+
+#unidad1A, #unidad2A, #unidad3A, #unidad4A {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+}
+
+#unidad1A:hover, #unidad2A:hover, #unidad3A:hover, #unidad4A:hover{
+  transform: scale(1.05,1.1) translateX(-50px) translateY(20px); 
+  overflow: hidden;
+  z-index: 5;
+  box-shadow:  24px 16px 30px rgba(0, 0, 0, 0.8); 
+}
+
+#unidad1A:hover{
+  background-color: #c0a1c5; 
+ 
+} 
+
+#unidad2A:hover{
+  background-color: #88cfe5;  
+  
+} 
+
+#unidad3A:hover{
+  background-color: #ec8ac4; 
+  
+} 
+
+#unidad4A:hover{
+  background-color: #ffe495;  
+  
+} 
+/************************/
+
+#unidad1B, #unidad2B, #unidad3B, #unidad4B {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+}
+
+#unidad1B:hover, #unidad2B:hover, #unidad3B:hover, #unidad4B:hover{
+  transform: scale(1.05,1.1) translateX(50px) translateY(-20px); 
+  overflow: hidden;
+  z-index: 5;
+  box-shadow:  24px -16px 30px rgba(0, 0, 0, 0.8); 
+}
+
+#unidad1B:hover{
+  background-color: #c0a1c5; 
+ 
+} 
+
+#unidad2B:hover{
+  background-color: #88cfe5;  
+  
+} 
+
+#unidad3B:hover{
+  background-color: #ec8ac4; 
+  
+} 
+
+#unidad4B:hover{
+  background-color: #ffe495;  
+  
+} 
+
+
+
+

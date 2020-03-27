@@ -1,0 +1,41 @@
+/*<!-- #ee6e73 color por defecto -->*/
+
+/*color fuerte = #752283
+color suave  = #c0a1c5*/
+
+body{  
+    background-image: url(../multimedia/image/fondo1.jpg); 
+    background-repeat: repeat; 
+}
+
+.contenedor{
+	background-color: rgba(192, 161, 197, 0.7);
+	overflow: auto;	
+	height: inherit;
+	width: inherit;
+}
+
+nav .nav-wrapper, footer.page-footer {
+    background-color: #752283;
+}
+
+.redondo, .redondo:hover {	
+     background: #752283;
+}
+
+.cBoton{
+	background-color: #9c27b0;
+}
+.cBoton:hover{
+	background-color: #7b1fa2;
+}
+
+.cTexto{
+	color: #9c27b0;
+}
+
+
+
+
+
+

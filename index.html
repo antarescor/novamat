@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>NOVAMAT</title>	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">	
+	<link rel="shortcut icon" href="multimedia/image/logo_50x50.png" type="image/x-icon">
+
+	<link rel="stylesheet" href="css/materialize.css">
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/temaDefecto.css">
+	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body onload="animar()">	
+	<div class="contenedor">
+		<div class="navbar-fixed">
+			<nav id="navIndex">
+				<div class=" nav-wrapper z-depth-5">
+					<div class="redondoIndex right side-nave  z-depth-4">							
+					</div>					
+				</div>		
+			</nav>
+		</div>
+	
+		<div class="container">	
+	
+			<div class="caja1">	
+
+				<div class="row">	
+					<div id="logoInicio" class="col m3 center">
+						<img  class="responsive-img" src="multimedia/image/logo_235x235.png" alt="logo">
+					</div>
+	
+					<div id="letrasInicio" class="col m9 cajax invisible">
+						<img  class="responsive-img" src="multimedia/image/novamat_140x763.png" 
+						alt="novamat">
+					</div>	
+				</div>	
+
+				<br><br><br>
+
+				<div  id="btnIniciar" class="row invisible">
+					<div >
+						<a onmouseover="playHover()" onfocus="playClic()" href="unidades/unidades.html" class="btn-large cyan col s4 offset-s4">INICIAR</a>
+					</div>
+				</div>
+
+			</div>
+		</div>   
+	
+		<footer class="footIndex page-footer zup-depth-5">      
+	  		<div class="footer-copyright center">
+			    <div class="row col m12">
+			    	<h6>© 2016 Copyright NOVAMAT Grado 9º</h6>	            	
+			    	<h6>Universidad Del Valle Tulua</h6>
+			    </div> 	            
+		  	</div>
+		</footer>
+		 		
+	<!-- ************ para adjuntar partes de la pagina *************** -->
+		<audio src="multimedia/audio/hover.mp3" preload></audio>
+		<audio src="multimedia/audio/clic.mp3" preload></audio>
+
+		<script src="js/jquery.js"></script>
+		<script src="js/materialize.min.js"></script>
+		<script src="js/audios.js"></script>
+		<script src="js/animacionInicial.js"></script>
+
+		<!-- <script>
+			$(document).ready(animar());
+		</script> -->
+		
+	
+	<!-- ***************************************************************	 -->
+	</div>
+</body>
+
+
+</html>
